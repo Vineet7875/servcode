@@ -1,0 +1,93 @@
+.Home {
+    /* background-color: black; */
+    /* background-color: #6E6E6E; */
+    background-color: #383838;
+    width: 100%;
+    height: 100vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-top: 5rem;
+}
+
+.intro {
+    /* border: 2px solid black; */
+    /* width:85vw; */
+    /* height: 30vh; */
+    position:absolute;
+    /* height: 90vh; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* line-height: 5rem; */
+    color: white;
+    margin-bottom: 6rem;
+    padding: 1rem;
+}
+.intro p {
+    font-size: 1.8rem;
+    color: aliceblue;
+}
+
+.social_media {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn{
+    background-color:#baff39;
+    border: 2px solid #baff39;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1rem;
+    /* font-size: 1.2rem;
+    padding: 1.2rem 1.8rem;
+    border-radius: 0.5rem; */
+
+    height: 3.5rem;
+    width: 10rem;
+    border-radius: 0.7rem;
+}
+.btn:hover{
+    background-color: white;
+    border: 2px solid white;
+}
+@media only screen and (max-width :693px) {
+    .Home {
+        /* background-color: black; */
+        /* background-color: #6E6E6E; */
+        background-color: #383838;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0rem;
+    }
+    .intro {
+        line-height: normal;
+        /* border: 2px solid black; */
+        width:100%;
+        position: relative;
+        height: 90vh;
+        /* top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); */
+        /* text-align: center; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* line-height: 5rem; */
+        color: white;
+        margin-bottom:6rem;
+        padding: 1rem;
+    }
+}

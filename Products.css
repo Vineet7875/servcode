@@ -1,0 +1,82 @@
+.Product1 {
+    width: 100%;
+    text-align: center;
+    /* background-color: black; */
+    background-color: #6E6E6E;;
+    color: white;
+}
+
+#Product {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    font-size: 3rem;
+}
+
+.Product1 h1 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 3rem;
+    /* color: #baff39; */
+    color: white;
+}
+
+.Product2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 2rem;
+    column-gap: 5rem;
+    justify-content: space-around;
+}
+
+.cardpro {
+    /* background-color: white; */
+    background-color: black;
+    /* color: black; */
+    color: white;
+    height: 25rem;
+    width: 30rem;
+    border-radius: 1.5rem;
+    font-size: 1.5rem;
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: start;
+    padding-top: 2rem;
+    transition: all .5s;
+}
+
+.cardpro:hover{
+    transform: scale(1.1);
+}
+
+.cardpro p{
+    padding: 0 2rem;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+}
+
+.cardpro h3{
+    color: #baff39;
+    font-size: 2rem;
+}
+
+
+@media only screen and (max-width :1130px) {
+    .Product2 {
+        grid-template-columns: auto auto;
+    }
+    #Product {
+        padding-top: 7rem;
+    }
+}
+
+@media only screen and (max-width :720px) {
+    .Product2 {
+        grid-template-columns: auto;
+    }
+    #Product {
+        padding-top: 7rem;
+    }
+}
